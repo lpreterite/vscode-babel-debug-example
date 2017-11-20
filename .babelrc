@@ -1,0 +1,12 @@
+{
+    "presets": [
+        ["env", {
+            "target": {
+                "browsers": [
+                    "> 5%"
+                ]
+            },
+            "useBuiltIns": true
+        }]
+    ]
+}
