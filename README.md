@@ -6,7 +6,7 @@ vscode babel debug example
 The idea is to first use babel to generate the file and source-map, and then run the program. The following is the vscode setting steps
 
 1. Add Task
-    ```
+    ```json
     // # .vscode/tasks.json
     {
         "version": "2.0.0",
@@ -26,7 +26,7 @@ The idea is to first use babel to generate the file and source-map, and then run
     }
     ```
 2. Add Launch
-    ```
+    ```json
     // # .vscode/launch.json
     {
         "version": "0.2.0",
@@ -53,7 +53,7 @@ The idea is to first use babel to generate the file and source-map, and then run
 
 - Q. How to make the terminal does not show by default ?
 - A. You can set `reveal` to **"never"**
-    ```
+    ```json
     // # .vscode/launch.json
     {
         "version": "2.0.0",
