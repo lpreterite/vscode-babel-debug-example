@@ -19,7 +19,7 @@
             ],
             "presentation": {
                 "echo": true,
-                "reveal": "silent",
+                "reveal": "never",
                 "focus": false,
                 "panel": "shared"
             }
@@ -37,7 +37,13 @@
                 "-d",
                 "lib/test",
                 "-s"
-            ]
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "never",
+                "focus": false,
+                "panel": "shared"
+            }
         }
     ]
 }

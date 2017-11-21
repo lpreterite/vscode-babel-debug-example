@@ -2,11 +2,8 @@
     "presets": [
         ["env", {
             "target": {
-                "browsers": [
-                    "> 5%"
-                ]
-            },
-            "useBuiltIns": true
+                "node": "current"
+            }
         }]
     ]
 }

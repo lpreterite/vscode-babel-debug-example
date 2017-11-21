@@ -7,6 +7,7 @@ The idea is to first use babel to generate the file and source-map, and then run
 
 1. Add Task
     ```
+    // # .vscode/tasks.json
     {
         "version": "2.0.0",
         "tasks": [
@@ -26,6 +27,7 @@ The idea is to first use babel to generate the file and source-map, and then run
     ```
 2. Add Launch
     ```
+    // # .vscode/launch.json
     {
         "version": "0.2.0",
         "configurations": [
@@ -46,6 +48,36 @@ The idea is to first use babel to generate the file and source-map, and then run
 3. Run Launch
     
     Pressing Ctrl+Shift+B or running Run Build Task... 
+
+## Some Questions
+
+- Q. How to make the terminal does not show by default ?
+- A. You can set `reveal` to **"never"**
+    ```
+    // # .vscode/launch.json
+    {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "build",
+                "type": "shell",
+                "command": "babel",
+                "args": [
+                    "src",
+                    "-d",
+                    "lib/src",
+                    "-s"
+                ],
+                "presentation": {
+                    "echo": true,
+                    "reveal": "never",
+                    "focus": false,
+                    "panel": "shared"
+                }
+            }
+        ]
+    }
+    ```
 
 ## more see
 https://code.visualstudio.com/docs/editor/debugging
