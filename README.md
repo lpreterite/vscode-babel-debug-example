@@ -87,3 +87,5 @@ https://code.visualstudio.com/docs/editor/tasks
 http://babeljs.io/docs/usage/cli/
 
 https://stackoverflow.com/questions/38557822/debugging-in-visual-studio-code-with-babel-node
+
+https://github.com/zinserjan/mocha-webpack/issues/67
