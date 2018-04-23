@@ -1,5 +1,8 @@
 # vscode-babel-debug-example
+
 vscode babel debug example
+
+if you would to use breakpoint by vue in VSCode, can see [lpreterite/vue-test-utils-mocha-webpack-example](https://github.com/lpreterite/vue-test-utils-mocha-webpack-example)
 
 ## debugging with babel
 
@@ -80,6 +83,7 @@ The idea is to first use babel to generate the file and source-map, and then run
     ```
 
 ## more see
+
 https://code.visualstudio.com/docs/editor/debugging
 
 https://code.visualstudio.com/docs/editor/tasks

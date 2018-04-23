@@ -38,30 +38,6 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Mocha-webpack Tests",
-            "program": "${workspaceFolder}/node_modules/mocha-webpack/lib/cli/index.js",
-            "args": [
-                "--colors",
-                "--webpack-config",
-                "webpack.config.js",
-                "--require",
-                "test/setup.js",
-                "test/**/*.spec.js"
-            ],
-            "cwd": "${workspaceRoot}",
-            "env": {
-                "NODE_ENV": "testing"
-            },
-            "sourceMaps": true,
-            "smartStep": true,
-            "outFiles": [
-                "${workspaceFolder}/lib/build.js"
-            ],
-            "internalConsoleOptions": "openOnSessionStart"
-        },
-        {
-            "type": "node",
-            "request": "launch",
             "name": "Launch Program",
             "program": "${file}",
             "cwd": "${workspaceFolder}"
